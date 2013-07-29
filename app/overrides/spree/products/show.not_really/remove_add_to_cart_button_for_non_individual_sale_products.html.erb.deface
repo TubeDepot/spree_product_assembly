@@ -1,4 +1,4 @@
-<!-- surround '[data-hook="cart_form"]' -->
+<!-- surround '[data-hook="cart_form"] should never happen' -->
 <% if @product.individual_sale? %>
   <%= render_original %>
 <% end %>
